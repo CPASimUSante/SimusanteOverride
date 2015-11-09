@@ -1,0 +1,4 @@
+simusanteoverride_controller:
+    resource: "@CPASimUSanteSimusanteOverrideBundle/Controller/SimusanteOverrideController.php"
+    type: annotation
+    prefix: /
