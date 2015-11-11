@@ -18,6 +18,14 @@ class CPASimUSanteSimusanteOverrideBundle extends PluginBundle
         return $config->addRoutingResource(__DIR__ . '/Resources/config/routing.yml', null, 'simusanteoverride');
     }
 
+    /**
+     * to override the bundle
+     * @return string
+     */
+    public function getParent()
+    {
+        return 'ClarolineCoreBundle';
+    }
     /*
     public function getAdditionalInstaller()
     {
